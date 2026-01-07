@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+httpx
+google-generativeai
+pydantic
+pydantic-settings
+python-dotenv
+

@@ -1,0 +1,20 @@
+{
+  "type": "coll_abuse",
+  "resources": [
+    {
+      "_id": "req_mcp_rabbit_status",
+      "parentId": "wrk_mcp_demo",
+      "modified": 0,
+      "created": 0,
+      "url": "http://localhost:5024/mcp",
+      "name": "MCP - RabbitMQ Status",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"tool\": \"rabbitmq.status\",\n  \"payload\": { \"host\": \"localhost\" },\n  \"correlationId\": \"demo-1\"\n}"
+      }
+    }
+  ]
+}
+
+
